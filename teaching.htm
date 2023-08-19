@@ -108,7 +108,21 @@
 <div align="left">
 <p>In my six years of teaching a wide array of classes, my philosophy has developed into one about ownership and autonomy. I've seen that students learn best after they see that mathematics is a project that everyone has a right to contribute to, rather than a font of eternal knowledge that belongs to a small few.</p>
 <p>Here are the classes I've taught since staring at UNL. In addition to teaching these classes, I have also written parts of the Workbook used in Math 107 here at UNL.</p>
-<ul>
+<p><button onclick="myFunction()">Click Me</button></p>
+
+<div id="myDIV">Hello</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Hello") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
+</script>
+	<ul>
 <li>Fall 2017 - Math 107: Calculus II - TA for Dr. Brian Harbourne & Dr. Christine Kelley</li>
 <li>Spring 2018 - Math 107 - TA for Dr. Mark Walker & Seth Lindokken</li>
 <li>Summer 2018 (First Session) - Math 107 - TA for Amadeus Martin</li>
