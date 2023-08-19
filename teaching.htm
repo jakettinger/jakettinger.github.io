@@ -115,14 +115,8 @@
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
-  if (x.innerHTML === "Hello") {
-    x.innerHTML = "Swapped text!";
-  } else {
-    x.innerHTML = "Hello";
-  }
-}
-</script>
-	<ul>
+  if (x.innerHTML === " ") {
+    x.innerHTML = "<ul>
 <li>Fall 2017 - Math 107: Calculus II - TA for Dr. Brian Harbourne & Dr. Christine Kelley</li>
 <li>Spring 2018 - Math 107 - TA for Dr. Mark Walker & Seth Lindokken</li>
 <li>Summer 2018 (First Session) - Math 107 - TA for Amadeus Martin</li>
@@ -160,7 +154,13 @@ function myFunction() {
 		<li>Here is a sheet of <a href="221_Midterm_1_Topics.pdf">Midterm 1 topics</a>.</li>
 		<li>Here is a key for <a href="Laplace_Transform_Key-2.pdf">Laplace transforms</a>.</li>
 	</ul>
-</ul>
+</ul>";
+  } else {
+    x.innerHTML = " ";
+  }
+}
+</script>
+	
 <div id="grad1">
 
 
