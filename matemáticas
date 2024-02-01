@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<style>
+#footer{
+    background-image: url(http://dl.glitter-graphics.com/pub/904/904120lkxocqky6i.gif);
+    background-position: right bottom;
+    bottom:0%;
+    width:100%;
+    background-repeat: no-repeat;
+    padding: 0x;
+}
+#grad1 {
+    height: 2px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+</style>
+<div id="footer">
+<title>Seminario de las matemáticas en español</title>
+<body bgcolor="#dfbfaf" link="blue" alink="red" vlink="blue">
+<div align="left">
+<h1>Seminario de las matemáticas en español</h1>
+<p><a href="index.html"><- back</a>
+<p>This semester, the seminar meets biweekly on Wednesdays at 4:00. Here are the talks given so far.</p>
+<ul>
+<li><a href="historia.pdf">Una historia de la notación matemática.</a> 31 January 2024.</li>
+
+
+
+</ul>
+<div id="grad1">
+
+</body>
+</html>
