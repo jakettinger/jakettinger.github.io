@@ -1,12 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<style>
-#example1{
-    background-image: url(https://www.w3schools.com/cssref/img_flwr.gif);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    padding: 0px;
+    <script type="text/javascript">
+var bg=0;
+function toggleBG()
+{
+	if(bg == 0)
+	{
+		document.body.style.background = '#afdfbf';
+		bg = 1;
+	}
+	else
+	{
+		document.body.style.background = '#dfbfaf';
+		bg = 0;
+	}
 }
+    </script>
+<style>
 #footer{
     background-image: url(http://dl.glitter-graphics.com/pub/904/904120lkxocqky6i.gif);
     background-position: right bottom;
@@ -15,17 +25,56 @@
     background-repeat: no-repeat;
     padding: 0x;
 }
-#grad1{
+#grad1 {
     height: 2px;
     background: red; /* For browsers that do not support gradients */
     background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, indigo, violet); /* Standard syntax (must be last) */
 }
+#example1{
+    background-image: url(https://www.w3schools.com/cssref/img_flwr.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
 </style>
-<title>Matematicas</title>
-    <meta http-equiv="refresh" content="1;url=https://jakettinger.github.io/matem%C3%A1ticas.htm" />
-<body bgcolor="#fff" link="blue" alink="red" vlink="blue">
-<div align="left">
 
-<p>Redirecting to matemáticas...</p>
+<title>Seminario de las matemáticas en español</title>
+<body bgcolor="#dfbfaf" link="blue" alink="red" vlink="blue">
+    <font face="arial" color="black" font size=3>
+<div align="left">
+<h1>Seminario de las matemáticas en español</h1>
+<p><a href="javascript:history.back()"><- back</a>
+<div id="example1">
+<p>Inspired by the success of the <a href="https://anawright.github.io/matematicas" target="_blank">math in Spanish seminar at UNL</a>, <a href="https://lailakettinger.github.io/" target="_blank">Laila</a> and I are organizing a Spanish math seminar here at <a href="#" onclick="toggleBG(); return false;">CSU</a>!</p>
+    
+<p>El seminario de las matemáticas en español is a seminar for giving math talks in Spanish. All levels of Spanish proficiency are welcome! Recreational or low-level math talks are encouraged so as to be welcoming to people of all mathematical interests. The seminar is organized my myself and Laila Kettinger. This semester, we meet biweekly on Wednesdays at 4:00. Here are the talks given so far.</p>
+<ul>
+<li><a href="EspModuli20240228.pdf">Lo que Ignacio está investigando ahorita: El Espacio Móduli de Curvas</a>
+<ul>
+<li>Ignacio Rojas</li>
+<li>28 February 2024</li>
+</li>
+</ul>
+</ul>
+<ul>
+<li>La geometría del juego Conjunto
+<ul>
+<li>Kylie Schnoor</li>
+<li>14 February 2024</li>
+</li>
+</ul>
+</ul>
+<ul>
+<li><a href="historia.pdf">Una historia de la notación matemática</a>
+	<ul>
+	<li>Jake Kettinger</li>
+	<li>31 January 2024</li>
+	</ul>
+
+
+</ul>
+
+<div id="grad1">
+
 </body>
 </html>
