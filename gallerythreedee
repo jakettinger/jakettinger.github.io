@@ -20,89 +20,12 @@ Here is a gallery of some of the gadgets I've made in 3D-Desmos.
 <table CELLPADDING=30 CELLSPACING=0 width=1000>
 
 <tr> <td width=1000 align=left valign=top>
-<b><a href="https://www.desmos.com/calculator/12joutun13" target="_blank">Projection of a D<sub>4</sub></a></b>
- <p><iframe src="https://www.desmos.com/calculator/12joutun13?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-Above is the general projection of the 12 points of the D<sub>4</sub> configuration (also known as the <a href="https://en.wikipedia.org/wiki/Reye_configuration" target="_blank">Reye configuration</a>) into a plane. You can control the five blue points and you can slide the green point along a line. This set of 12 points is a complete intersection because it is the intersection of a cubic curve (purple) and a quartic curve (orange, the union of four lines). This makes the D<sub>4</sub> configuration a <a href="https://arxiv.org/abs/2209.04820" target="_blank">(3,4) geproci half grid</a>.
-<br>
-<br>
-<br>
-
-<b><a href="https://www.desmos.com/calculator/xqmauatowt" target="_blank">The Geiser Involution</a></b>
-<p><iframe src="https://www.desmos.com/calculator/9y9oejvdgp?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-<p>Above is a demonstration of the Geiser involution on the plane, which uses the Cayley-Bacharach Theorem. Under the involution, the points P and Q map to each other.
-	<br>
-It relies on the Cayley-Bacharach Theorem, which states that given eight points in the plane, there is exactly one additional point in the plane such that every cubic that contains the first eight points must also contain the additional ninth point.
-<br>
-The function treats the seven black points as base points, and uses P as the eighth point: then Q is the additional ninth point that satisfies the Cayley-Bacharach Theorem.
-<br>
- When P is one of the seven base points, the image of P is not defined. The Geiser involution is a rational transformation of the plane, and is just defined on a dense open subset of the plane. To have it be defined everywhere, you would have to blow up the seven points where it not defined.
- <br>
- <br>
- <br>
- <b><a href="https://www.desmos.com/calculator/o88bxrsg1c" target="_blank">Four Points and a Tangent Make Two Conics</a></b>
- <p><iframe src="https://www.desmos.com/calculator/tmybgtqyga?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
- The above is a demonstration showing that picking four points in the plane and a line as a tangent line yields exactly two conics. Note that sometimes the conics disappear because its polynomial would need to have complex coefficients.
- <br>
- You can control the orange line by dragging the orange point.
- <br>
- <br>
- <br>
-<b><a href="https://www.desmos.com/calculator/rg4u5bwsew" target="_blank">The Unexpected Quartic</a></b>
-<p><iframe src="https://www.desmos.com/calculator/r7pcx6a3lb?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-<p>Above is a demonstration of the unique (up to isomorphism) unexpected quartic in characteristic 0. Points 1, 2, 3, 4, and 10 are click-and-draggable, and point 10 will always be a triple point no matter where you drag it! (Although it may not always appear that way because non-real slopes don't render in Desmos.) You can read about its construction and uniqueness in the <a href="https://arxiv.org/abs/1804.03590" target="_blank">2019 paper by Farnik, Galuppi, Sodomaco, and Trok</a>. 
-
-<br>
-<br>
-<br>
- <b><a href="https://www.geogebra.org/calculator/q5aqn4rs" target="_blank">Pascal's Theorem</a></b>
- <!--<p><iframe scrolling="no" src="https://www.geogebra.org/classic/q5aqn4rs?embed/" width="400" height="400" style="border: 5px solid #9999ff;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>-->
- <div id="ggb-element">
- 	<script type="text/javascript" src="https://www.geogebra.org/apps/deployggb.js"></script>
-
-        <script type="text/javascript">
-
- var params = {
-            "appName": "classic", 
-            "width": 400, 
-            "height": 400, 
-            "showToolBar": false, 
-            "showAlgebraInput": false, 
-            "showMenuBar": false,
-            "material_id":"q5aqn4rs",
-            "borderWidth": 5,
-            "border-color": "9999ff"
-            };
-    var ggbApplet = new GGBApplet(params, true);
-    window.addEventListener("load", function() { 
-        ggbApplet.inject('ggb-element');
-    });
-   </script>
-   
-</div>
-<br>
-Linked is an illustration of Pascal's theorem, which can be proven using the Cayley-Bacharach theorem.
-<br>
-The points A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, B<sub>1</sub>, B<sub>2</sub>, and B<sub>3</sub> are six points on a conic. The two orange lines connect A<sub>1</sub> with B<sub>2</sub> and A<sub>2</sub> with B<sub>1</sub>. The intersection of those orange lines is X.
-<br>
-The two purple lines connect A<sub>1</sub> with B<sub>3</sub> and A<sub>3</sub> with B<sub>1</sub>. The intersection of those purple lines is Y.
-<br>
-The two green lines connect A<sub>2</sub> with B<sub>3</sub> and A<sub>3</sub> with B<sub>2</sub>. The intersection of those green lines is Z.
-<br>
-    No matter where you move the six points A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, B<sub>1</sub>, B<sub>2</sub>, and B<sub>3</sub>, the points X, Y, and Z will always be collinear!
-    <br>
- <br>
- <br>
- <b><a href="https://www.desmos.com/calculator/qulexef18e" target="_blank">Centers of a Triangle</a></b>
- <p><iframe src="https://www.desmos.com/calculator/qulexef18e?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
- A triangle's medicenter (green), circumcenter (blue), and orthocenter (purple) are always collinear, lying on the orange line. The center of the inscribed circle (dotted in red) is in general not collinear with the other three points.
- <br>
-<br>
- <br>
- <b><a href="https://www.desmos.com/3d/fhjpa55sii" target="_blank">Regulus on a Hyperboloid</a></b>
+<b><a href="https://www.desmos.com/3d/fhjpa55sii" target="_blank">Regulus on a Hyperboloid</a></b>
  <p><iframe src="https://www.desmos.com/3d/fhjpa55sii?embed" width="400" height="400" style="border: 5px solid #af00af;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
 A quadric surface (for example, a hyperboloid) supports two reguli: a family of disjoint lines that cover the quadric surface!
  <br>
-
+<br>
+<br>
 
 
 
@@ -112,60 +35,14 @@ A quadric surface (for example, a hyperboloid) supports two reguli: a family of 
 
 <td width=1000 valign=top align=left>
 <div align="left">
-<b><a href="https://www.desmos.com/calculator/khbb7dalvy" target="_blank">The Bertini Involution</a></b>
-<p><iframe src="https://www.desmos.com/calculator/iohpcnjkuu?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-The above is an example of the Bertini involution of the plane, which uses the group law of elliptic curves. Under the involution, the point P maps to the point Q. It begins by taking an elliptic fibration with nine base points and choosing one of the base points as the identity element under the group law for all of the curves in the fibration. This point is marked as O.
-
-  <br>
-
-   Then when P is not one of the nine base points, there is a unique elliptic curve that contains all nine base points and P. Then P is mapped to -P under a group homomorphism on the curve (which is why we have an involution: if P goes to -P, then -P goes to -(-P)=P). 
-
-   <br>
-
-   To show P+Q=O, we can connect P and Q with the green line, and label the third point where the green line meets the curve as R. Then to find P+Q, we connect R to the identity O with the orange line. This new line is tangent to the curve at O, and so the "third" point where the orange line meets the purple curve is O itself. This shows that P+Q=O, and so we truly have Q=-P.
-
-   <br>
-
-   When P is O, the image of P is P. When P is one of the eight base points that are not O, the image of P is not defined. The Bertini involution is a rational transformation of the plane, and is just defined on a dense open subset of the plane. To have it be defined everywhere, you would have to blow up the eight points where it not defined.
-
+<b><a href="https://www.desmos.com/3d/6633dfd75d" target="_blank">12 Lines on the Clebsch Cubic</a></b>
+ <p><iframe src="https://www.desmos.com/3d/fhjpa55sii?embed" width="400" height="400" style="border: 5px solid #af00af;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+A smooth cubic surface in P^3_C will have 27 lines, but not all of them will be real! This portrays the 12 real lines of the Clebsch cubic surface in A^3_R defined by the polynomial x^3+y^3+z^3+1=(x+y+z+1)^3. The Clebsch surface is special because it contains the maximal number of Eckardt points (points where three lines on the surface meet) of 10. Although, only four of them are real.
+ <br>
+<br>
 <br>
 
 This one was really hard to make. I followed the construction outlined in <a href="Bertini and Geiser Involutions.pdf">these</a> <a href="Bertini Notes - Moody.pdf">papers</a>.
-
-   <br>
-   <br>
-   <br>
-   <b><a href="https://www.desmos.com/calculator/jsgrzenqbq" target="_blank">Five Points Make a Conic</a></b>
-   <p><iframe src="https://www.desmos.com/calculator/x5u1g9jbum?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-   The above is a demonstration of five points on the plane uniquely determining a conic.
-   <br>
-   <br>
-   <br>
-   <b><a href="https://www.desmos.com/calculator/3mi8zktzhg" target="_blank">Three Points and Two Tangents Make Four Conics</a></b>
-   <p><iframe src="https://www.desmos.com/calculator/wkp2i70nha?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-   The above is a demonstration of choosing three points in the plane and two lines to become tangent lines. This yields exactly four conics. Note that sometimes the conics might disappear because their polynomials need complex coefficients.
-   <br>
-   You can control the orange and purple lines with the orange and purple points.
-    <br>
-   <br>
-   <br>
-   <b><a href="https://www.desmos.com/calculator/zhwrlxigee" target="_blank">Desargues's Theorem</a></b>
-   <p><iframe src="https://www.desmos.com/calculator/qg5jjbz30g?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-   The above is a demonstration of Desargues's theorem. Observe the two triangles ABC and abc. Desargues's theorem says the two triangles are in perspective <i>centrally</i> (meaning that the lines Aa, Bb, and Cc meet at the same point, here called O) if and only if they are in perspective <i>axially</i>: the points X (where BC meets bc), Y (where AC meets ac), and Z (where AB meets ab) are collinear.
-	<br>
-	A space where Desargues's Theorem holds is called <i>Desarguesian</i>. Any plane that embeds in a three-dimensional space is Desarguesian. An example of a non-Desarguesian space is the <a href="https://en.wikipedia.org/wiki/Moulton_plane" target="_blank">Moulton plane</a>.
-	<br>
-   <br>
-   <br>
-   <b><a href="https://www.desmos.com/calculator/vcrzpaxnpv" target="_blank">Nine General Points Make a Cubic</a></b>
-   <p><iframe src="https://www.desmos.com/calculator/vcrzpaxnpv?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-   The above is a demonstration of nine general points uniquely determining a cubic curve. I specify that the points are general because the Cayley-Bacharach Theorem says that given eight points in the plane, there is a single ninth point such that all cubics that contain the first eight will also contain the ninth. In that case, the nine points do not uniquely determine a cubic, but rather a pencil (a one-dimensional family) of cubics.
-	<br>
-	<br>
-   <br>
-   <b><a href="https://www.desmos.com/calculator/wip6xsqylc" target="_blank">Rolling Parabola</a></b>
-   <p><iframe src="https://www.desmos.com/calculator/wip6xsqylc?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
-	<p>The path traced by the focus of a parabola as it rolls across the x-axis is a catenary. Specifically, the parabola y=x<sup>2</sup> yields the catenary y=cosh(4x)/4. So that's pretty neat I would say.</p>
 <div id="grad1">
 
 </div>
