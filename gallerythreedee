@@ -36,7 +36,7 @@ A quadric surface (for example, a hyperboloid) supports two reguli: a family of 
 <td width=1000 valign=top align=left>
 <div align="left">
 <b><a href="https://www.desmos.com/3d/6633dfd75d" target="_blank">12 Lines on the Clebsch Cubic</a></b>
- <p><iframe src="https://www.desmos.com/3d/fhjpa55sii?embed" width="400" height="400" style="border: 5px solid #af00af;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+ <p><iframe src="https://www.desmos.com/3d/6633dfd75d?embed" width="400" height="400" style="border: 5px solid #af00af;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
 A smooth cubic surface in P^3_C will have 27 lines, but not all of them will be real! This portrays the 12 real lines of the Clebsch cubic surface in A^3_R defined by the polynomial x^3+y^3+z^3+1=(x+y+z+1)^3. The Clebsch surface is special because it contains the maximal number of Eckardt points (points where three lines on the surface meet) of 10. Although, only four of them are real.
  <br>
 <br>
