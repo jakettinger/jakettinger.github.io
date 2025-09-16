@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TEST Gallery</title>
+	<title>3D Gallery</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script src="navigation.js"></script>
 </head>
@@ -9,10 +9,10 @@
 
 <body bgcolor="#dfdf8f" link="blue" alink="red" vlink="blue">
 
-<h1>Gallery TESTING GROUNDS ONLY</h1>
+<h1>Gallery of Three-Dimensional Creatures</h1>
 <a href="index.html"><- back</a>
 <br>
-Here is a gallery of some of the gadgets I've made in Desmos and Geogebra.
+Here is a gallery of some of the gadgets I've made in 3D-Desmos.
 <br>
  If you scroll, the interactable component of the gadget might break, if that happens just click on my website's background or refresh the page and it should work!
 <br>
