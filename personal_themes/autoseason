@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<script>
+const e2 = new Date();
+var bl2=e2.getMonth();
+function seasondetector()
+{
+	if(bl2 >= 2 && bl2 <= 4 )
+	{
+		document.getElementById("sdetec").innerHTML = "beep boop it is spring.";
+	}
+	else if(bl2 >= 5 && bl2 <= 7 )
+	{
+		document.getElementById("sdetec").innerHTML = "beep boop it is summer.";
+	}
+	else if(bl2 >= 8 && bl2 <= 10 )
+	{
+		document.getElementById("sdetec").innerHTML = "beep boop it is fall.";
+	}
+	else if(bl2 == 11)
+	{
+		document.getElementById("sdetec").innerHTML = "beep boop it is winter.";
+	}
+	else
+	{
+		document.getElementById("sdetec").innerHTML = "beep boop it is winter.";
+	}
+}
+</script>
+
+<script>
+const e1 = new Date();
+var bl1=e1.getMonth();
+function boxcolor()
+{
+	if(bl1 >= 2 && bl1 <= 4 )
+	{
+		document.getElementById("box").style.backgroundColor = "ffffcc";
+	}
+	else if(bl1 >= 5 && bl1 <= 7 )
+	{
+		document.getElementById("box").style.backgroundColor = "lightblue";
+	}
+	else if(bl1 >= 8 && bl1 <= 10 )
+	{
+		document.getElementById("box").style.backgroundColor = "lightblue";
+	}
+	else if(bl1 == 11)
+	{
+		document.getElementById("box").style.backgroundColor = "lightblue";
+	}
+	else
+	{
+		document.getElementById("box").style.backgroundColor = "lightblue";
+	}
+}
+</script>
+
+<script>
+const e = new Date();
+var bl=e.getMonth();
+function headcolor()
+{
+	if(bl >= 2 && bl <= 4 )
+	{
+		document.getElementById("myH2").style.color = "#99ff99";
+	}
+	else if(bl >= 5 && bl <= 7 )
+	{
+		document.getElementById("myH2").style.color = "magenta";
+	}
+	else if(bl >= 8 && bl <= 10 )
+	{
+		document.getElementById("myH2").style.color = "blue";
+	}
+	else if(bl == 11)
+	{
+		document.getElementById("myH2").style.color = "lightblue";
+	}
+	else
+	{
+		document.getElementById("myH2").style.color = "lightblue";
+	}
+}
+</script>
+
+<script type="text/javascript">
+const d = new Date();
+var bg=d.getMonth();
+function toggleBG()
+{
+	if(bg >= 2 && bg <= 4 )
+	{
+		document.body.style.backgroundImage = "url('background spring4.png')";
+	}
+	else if(bg >= 5 && bg <= 7 )
+	{
+		document.body.style.backgroundImage = "url('background summer1.png')";
+	}
+	else if(bg >= 8 && bg <= 10 )
+	{
+		document.body.style.backgroundImage = "url('background fall1.png')";
+	}
+	else if(bg == 11)
+	{
+		document.body.style.backgroundImage = "url('background winter1.png')";
+	}
+	else
+	{
+		document.body.style.backgroundImage = "url('background winter1.png')";
+	}
+}
+</script>
+
+<script type="text/javascript">
+const d1 = new Date();
+var bg1=d1.getMonth();
+function seasonlink()
+{
+	if(bg1 >= 2 && bg1 <= 4 )
+	{
+		document.body.link = "#ff00ff";
+	}
+	else if(bg1 >= 5 && bg1 <= 7 )
+	{
+		document.body.link = "#ff00ff";
+	}
+	else if(bg1 >= 8 && bg1 <= 10 )
+	{
+		document.body.link = "#ff00ff";
+	}
+	else if(bg1 == 11)
+	{
+		document.body.link = "#ff00ff";
+	}
+	else
+	{
+		document.body.link = "#ff00ff";
+	}
+}
+</script>
+
+<script type="text/javascript">
+const d2 = new Date();
+var bg2=d2.getMonth();
+function seasonvlink()
+{
+	if(bg2 >= 2 && bg2 <= 4 )
+	{
+		document.body.vLink = "#ff00ff";
+	}
+	else if(bg2 >= 5 && bg2 <= 7 )
+	{
+		document.body.vLink = "#ff00ff";
+	}
+	else if(bg2 >= 8 && bg2 <= 10 )
+	{
+		document.body.vLink = "#ff00ff";
+	}
+	else if(bg2 == 11)
+	{
+		document.body.vLink = "#ff00ff";
+	}
+	else
+	{
+		document.body.vLink = "#ff00ff";
+	}
+}
+</script>
+
+<script>
+const d3 = new Date();
+var bg3=d3.getMonth();
+function seasontype() 
+{
+   if(bg3 >= 2 && bg3 <= 4 )
+   {
+        document.getElementById("subEmail").style.backgroundColor = "#ff99ff";
+    }
+    else if(bg3 >= 5 && bg3 <= 7 )
+	{
+		document.getElementById("subEmail").style.backgroundColor = "red";
+	}
+	else if(bg3 >= 8 && bg3 <= 10 )
+	{
+		document.getElementById("subEmail").style.backgroundColor = "red";
+	}
+	else if(bg3 == 11)
+	{
+		document.getElementById("subEmail").style.backgroundColor = "red";
+	}
+	else
+	{
+		document.getElementById("subEmail").style.backgroundColor = "red";
+	}
+}
+</script>
+
+<script>
+const d4 = new Date();
+var bg4=d4.getMonth();
+function seasonbutton() 
+{
+   if(bg4 >= 2 && bg4 <= 4 )
+   {
+        document.getElementById("subButton").style.background= "#ff99ff";
+    }
+    else if(bg4 >= 5 && bg4 <= 7 )
+	{
+		document.getElementById("subButton").style.background = "red";
+	}
+	else if(bg4 >= 8 && bg4 <= 10 )
+	{
+		document.getElementById("subButton").style.background = "red";
+	}
+	else if(bg4 == 11)
+	{
+		document.getElementById("subButton").style.background = "red";
+	}
+	else
+	{
+		document.getElementById("subButton").style.background = "red";
+	}
+}
+</script>
+
+<script>
+const d5 = new Date();
+var bg5=d5.getMonth();
+function HPnav() 
+{
+   if(bg5 >= 2 && bg5 <= 4 )
+   {
+        document.getElementById("hpnav").style.background= "#99ff99";
+    }
+    else if(bg5 >= 5 && bg5 <= 7 )
+	{
+		document.getElementById("hpnav").style.background = "red";
+	}
+	else if(bg5 >= 8 && bg5 <= 10 )
+	{
+		document.getElementById("hpnav").style.background = "red";
+	}
+	else if(bg5 == 11)
+	{
+		document.getElementById("hpnav").style.background = "red";
+	}
+	else
+	{
+		document.getElementById("hpnav").style.background = "red";
+	}
+}
+</script>
+<style>
+#example1{
+    background-image: url(https://www.w3schools.com/cssref/img_flwr.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+#footer{
+    background-image: url(http://dl.glitter-graphics.com/pub/904/904120lkxocqky6i.gif);
+    background-position: right bottom;
+    bottom:0%;
+    width:100%;
+    background-repeat: no-repeat;
+    padding: 0x;
+}
+#grad1{
+    height: 2px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+#grad2{
+    height: 2px;
+    background: #ccffff; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #ccffff, #ccccff, #ccffff, #ccccff, #ccffff, #ccccff, #ccffff, #ccccff, #ccffff, #ccccff); /* Standard syntax (must be last) 292975 */
+}
+body {
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#box {
+border-radius: 25px;
+ background-color: #ffffcc;
+  width: 690px;
+  height: 600px;
+  padding: 5px;
+  border: 3px solid #ff99ff;
+  margin: 5px;
+  opacity: 1;
+}
+#figurebox1 {
+border-radius: 25px;
+ background-color: #ffffcc;
+  width: 180px;
+  height: 25px;
+  padding: 0px;
+  border: 3px solid #ff99ff;
+  margin: 0px;
+  opacity: 1;
+}
+#figurebox2 {
+border-radius: 25px;
+ background-color: #ffffcc;
+  width: 280px;
+  height: 25px;
+  padding: 0px;
+  border: 3px solid #ff99ff;
+  margin: 0px;
+  opacity: 1;
+}
+#figurebox3 {
+border-radius: 25px;
+ background-color: #ffffcc;
+  width: 270px;
+  height: 25px;
+  padding: 0px;
+  border: 3px solid #ff99ff;
+  margin: 0px;
+  opacity: 1;
+}
+#detectorbox {
+border-radius: 25px;
+ background-color: #ffffcc;
+  width: 270px;
+  height: 40px;
+  padding: 0px;
+  border: 3px solid #ff99ff;
+  margin: 0px;
+  opacity: 1;
+}
+</style>
+
+<div id="example1">
+<title>Personal Biz</title>
+<body bgcolor="#9999ff" onload="toggleBG(); headcolor(); boxcolor(); seasondetector(); seasonlink(); seasonvlink(); seasontype(); seasonbutton(); HPnav();">
+<div align="left">
+
+<table CELLPADDING=0 CELLSPACING=0 width=1000>
+
+<tr> <td width=250 align=center valign=top>
+
+<font face= "comic sans ms" color="#003399">
+
+<a href="lenore_hammock.gif"><img src="lenore_hammock.gif" alt="Yours Truly" width="150" height="150" style="opacity:1.0"></a>
+
+</td>
+
+<td width=1000 valign=top align=center>
+    <font face= "comic sans ms">
+<h1 id="myH2">Personal Information</h1>
+
+<table style="border:2px #76B07C; border-radius: 50px 50px 50px 50px;" bordercolor="#86BC8C" align="center" border="5" cellspacing="1" width="720" cellpadding="5"   >
+<tbody>
+<tr>
+<td style="border-radius:50px 50px 50px 50px;" height="10" width="175" id="hpnav" bordercolor="76B07C">
+<center> <a href="index.html" style="text-decoration: none; color: #213E55"> Home Page </b> </a> </center> </td>
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="175" bgcolor="#ff99ff">
+<center> <a href="research.htm" style="text-decoration: none; color: #213E55"> Research </b> </a> </center>
+</td>
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="175" style="bordercolor=#86BC8C" bgcolor="#99ff99"> 
+<center> <a href="teaching.htm" style="text-decoration: none; color: #213E55"> Teaching </a>  </center> 
+</td>
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="175" style="bordercolor=#86BC8C" bgcolor="#ff99ff" > 
+<center> <a href="cv.htm" style="text-decoration: none; color: #213E55"> My CV </a>  </center> 
+</td>
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="300" style="bordercolor=#86BC8C" bgcolor="99ff99"> 
+<center> <a href="personal.htm" style="text-decoration: none; color: #213E55"> Personal (You Are Here) </a>  </center> 
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<div align="left">
+<table CELLPADDING=10 CELLSPACING=0 width=1000>
+
+<tr> <td width=250 align=left valign=top>
+
+
+</td>
+
+<table CELLPADDING=0 CELLSPACING=0 width=1000>
+
+<tr> <td width=350 align=left valign=top>
+
+
+<img src="background.png" alt="Yours Truly" width="300" height="300" style="border-radius: 5%;">
+  
+<figcaption><div align="center"><font face="comic sans ms" color="#003399"><div id="figurebox1">Figure 1-Yours Truly</div></figcaption>
+<br>
+
+<img src="background.png" alt="Weber" width="300" height="300" style="border-radius: 5%;">
+  
+<figcaption><div align="center"><font face="comic sans ms" color="black"><div id="figurebox2">Figure 2-Come visit <a href="weber208.png" target="_blank">me</a> at <a href="https://www.google.com/maps/place/Louis+R.+Weber,+Fort+Collins,+CO+80521/@40.5761864,-105.08484,17z/data=!3m1!4b1!4m6!3m5!1s0x87694a577c055697:0xbd69fdbe8b236659!8m2!3d40.5761824!4d-105.0822651!16s%2Fg%2F1ttyx6q1?entry=ttu" target="_blank">Weber</a>!</div></figcaption>
+<br>
+
+<img src="https://c1.staticflickr.com/9/8735/28272914640_8a8b4c7a46_b.jpg" alt="Get Messy" width="300" height="300" style="border-radius: 5%;">
+  
+<figcaption><div align="center"><font face="comic sans ms" color="#003399"><div id="figurebox3">Figure 3-Or at the <a href="https://www.google.com/maps?q=hot+mess+lincoln&oe=utf-8&client=firefox-b-1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwizwOeJgr3ZAhUQTawKHRQeBoAQ_AUIDygA" target="_blank">Hot Mess</a> :)</div></figcaption>
+<td width=0 valign=top align=left>
+</td>
+
+
+<td width=1000 valign=top align=left>
+    <font color="#003399">
+
+   <div id="box" bgcolor="mybc"> <p>Welcome to my personal information page! Here is where I'll discuss my various interests and whatnot, et cetera, and so forth. I will get a kettle started and tell you everything you need to know. 
+   
+   <!--<button type="button" onclick="headcolor()">Set text color</button>-->
+
+    <p align=center><img src="kettle.gif" width="40" height="40" align=center>
+
+    <p>I like hiking, frogs, birds, puzzles, and making <a href="gallery.htm">Desmos creations</a>. I also like card games, board games, "<a href="https://en.wikipedia.org/wiki/Mathematics">imagination games</a>," and <a href="https://allaboutfrogs.org/funstuff/java/tictactoe/index.html">real games</a>. I also know Norwegian and am currently learning Spanish. <p id="testnum"></p><script>
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const d = new Date();
+let month = months[d.getMonth()];
+document.getElementById("demo").innerHTML = month;
+</script>
+<id="testNum(-5)">
+
+<!--My best friends include Allison, <a href="https://www.math.unl.edu/~aseideman2/" target="_blank">Alyssa</a>, <a href="https://www.math.unl.edu/~awhittemore2/" target="_blank">Alyssa</a>, <a href="https://anawright.github.io/" target="_blank">Ana</a>, <a href="https://www.math.unl.edu/~aeide2/" target="_blank">Austin</a>, <a href="https://www.math.unl.edu/~czimmitti2/" target="_blank">Catherine</a>, <a href="https://www.math.unl.edu/~dmcknight24/" target="_blank">Dylan</a>, <a href="https://www.math.unl.edu/~fzimmitti2" target="_blank">Frank</a>, <a href="http://www.hayleyanneolson.com/" target="_blank">Hayley</a>, 
+<a href="https://www.math.unl.edu/~jmoon16/" target="_blank">Jennifer</a>, <a href="https://leilani314.github.io/" target="blank">Leilani</a>, <a href="https://matthew-bachmann.github.io/" target="_blank">Matthew</a>, <a href="https://mpdebell.expressions.syr.edu/" target="_blank">Michael</a>, <a href="https://www.math.unl.edu/~mhaver4/" target="_blank">Michelle</a>, <a href="https://users.wpi.edu/~nbuczkowski/" target="_blank">Nicole</a>, and Sally. AND MAYBE YOU?!?!?!?!?!</p>-->
+
+<p>I also love writing <a href="poems.htm">poetry</a>!</p>
+
+<p>Here are some <a href="birdies.htm">birds</a> I like.</p>
+
+<p>Here is a list of my favorite webcomic:
+<ul><li><a href="http://falseknees.com" target="_blank">False Knees</a></li></ul>
+
+<p> Here's a <a href="title.htm">game</a> I made.
+
+<p> Now that I've told you about myself, use the textbox below to write an amusing anecdote and/or a fun personal detail!
+    <p><form action="mailto:jkett@colostate.edu" method="post" enctype="text/plain"><input type="text" name="comment" size="50" style='font-family: comic sans ms;' id="subEmail">
+        <br><input type='submit' value='Send!' id="subButton"  style='color: #003399; font-family: comic sans ms; border-radius: 25px;' 
+            onclick='save(); this.disabled=false;' />
+        </p>
+        <p id="msg"></p>
+    </form>
+</div>
+<br>
+<p><font size=1>  <div align=center><div id="detectorbox">This background is powered by the <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Season Detector<sup>TM</sup></a>.<div id="hideaway" style="display:none;"><div id="sdetec"></p>.</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+</body>
+<script>
+    function save() {
+        var msg = document.getElementById('msg');
+        msg.innerHTML = 'Thanks, <a href="https://eloisagrifo.github.io/champ/" target="_blank">champ</a> :)';
+    }
+</script>
+<script>
+function testNum(a) {
+  let result;
+  if (a > 0) {
+    result = "positive";
+  } else {
+    result = "NOT positive";
+  }
+  return result;
+}
+
+<!--console.log(testNum(-5));-->
+document.getElementById("testnum").innerHTML = (testNum(-5));
+</script>
+
+   </html>
