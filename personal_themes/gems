@@ -99,7 +99,7 @@ border-radius: 25px;
 </td>
 
 <td width=1000 valign=top align=center>
-    <font face= "comic sans ms" color="#fbd9b0">
+    <font face= "comic sans ms" color="##ff0080">
 <h1>Personal Information</h1>
 
 <table style="border:2px #53496e; border-radius: 50px 50px 50px 50px;" bordercolor="#53496e" align="center" border="5" cellspacing="1" width="720" cellpadding="5"   >
