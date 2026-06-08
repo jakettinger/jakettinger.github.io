@@ -33,51 +33,51 @@ body {
 }
 #box {
 border-radius: 25px;
- background-color: #dda165;
+ background-color: #00cc66;
   width: 690px;
   height: 600px;
   padding: 5px;
-  border: 3px solid #53496e;
+  border: 3px solid #cc00cc;
   margin: 5px;
   opacity: 1;
 }
 #figurebox1 {
 border-radius: 25px;
- background-color: #dda165;
+ background-color: #00cc66;
   width: 180px;
   height: 25px;
   padding: 0px;
-  border: 3px solid #53496e;
+  border: 3px solid #cc00cc;
   margin: 0px;
   opacity: 1;
 }
 #figurebox2 {
 border-radius: 25px;
- background-color: #dda165;
+ background-color: #00cc66;
   width: 280px;
   height: 25px;
   padding: 0px;
-  border: 3px solid #53496e;
+  border: 3px solid #cc00cc;
   margin: 0px;
   opacity: 1;
 }
 #figurebox3 {
 border-radius: 25px;
- background-color: #dda165;
+ background-color: #00cc66;
   width: 270px;
   height: 25px;
   padding: 0px;
-  border: 3px solid #53496e;
+  border: 3px solid #cc00cc;
   margin: 0px;
   opacity: 1;
 }
 #detectorbox {
 border-radius: 25px;
- background-color: #dda165;
+ background-color: #00cc66;
   width: 270px;
   height: 40px;
   padding: 0px;
-  border: 3px solid #53496e;
+  border: 3px solid #cc00cc;
   margin: 0px;
   opacity: 1;
 }
@@ -85,7 +85,7 @@ border-radius: 25px;
 
 <div id="example1">
 <title>Personal Biz</title>
-<body bgcolor="#9999ff" link="#53496e" alink="#53496e" vlink="#53496e">
+<body bgcolor="#9999ff" link="#cc00cc" alink="#cc00cc" vlink="#cc00cc">
 <div align="left">
 
 <table CELLPADDING=0 CELLSPACING=0 width=1000>
@@ -102,21 +102,21 @@ border-radius: 25px;
     <font face= "comic sans ms" color="##ff0080">
 <h1>Personal Information</h1>
 
-<table style="border:2px #53496e; border-radius: 50px 50px 50px 50px;" bordercolor="#53496e" align="center" border="5" cellspacing="1" width="720" cellpadding="5"   >
+<table style="border:2px #cc00cc; border-radius: 50px 50px 50px 50px;" bordercolor="#cc00cc" align="center" border="5" cellspacing="1" width="720" cellpadding="5"   >
 <tbody>
 <tr>
-<td style="border-radius:50px 50px 50px 50px;" height="10" width="175" bgcolor="#53496e" bordercolor="#fbd9b0">
+<td style="border-radius:50px 50px 50px 50px;" height="10" width="175" bgcolor="#cc00cc" bordercolor="#fbd9b0">
 <center> <a href="index.html" style="text-decoration: none; color: #fbd9b0"> Home Page </b> </a> </center> </td>
 <td style="border-radius:50px 50px 50px 50px;"height="10" width="175" bgcolor="#fbd9b0">
 <center> <a href="research.htm" style="text-decoration: none; color: #213E55"> Research </b> </a> </center>
 </td>
-<td style="border-radius:50px 50px 50px 50px;"height="10" width="175" style="bordercolor=#fbd9b0" bgcolor="#53496e"> 
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="175" style="bordercolor=#fbd9b0" bgcolor="#cc00cc"> 
 <center> <a href="teaching.htm" style="text-decoration: none; color: #fbd9b0"> Teaching </a>  </center> 
 </td>
 <td style="border-radius:50px 50px 50px 50px;"height="10" width="175" style="bordercolor=#3c354d" bgcolor="#fbd9b0" > 
 <center> <a href="cv.htm" style="text-decoration: none; color: #213E55"> My CV </a>  </center> 
 </td>
-<td style="border-radius:50px 50px 50px 50px;"height="10" width="300" style="bordercolor=#fbd9b0" bgcolor="#53496e"> 
+<td style="border-radius:50px 50px 50px 50px;"height="10" width="300" style="bordercolor=#fbd9b0" bgcolor="#cc00cc"> 
 <center> <a href="personal.htm" style="text-decoration: none; color: #fbd9b0"> Personal (You Are Here) </a>  </center> 
 </td>
 </tr>
